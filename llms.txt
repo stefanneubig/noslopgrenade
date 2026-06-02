@@ -30,6 +30,19 @@ Answer: [800-word AI-generated analysis covering data structures, persistence, m
 Question: "Should we use Redis or Memcached?"
 Answer: "Redis. We need pub/sub for the notifications feature."
 
+## Translations
+
+- Deutsch: https://noslopgrenade.com/de/
+- Français: https://noslopgrenade.com/fr/
+- Español: https://noslopgrenade.com/es/
+- Português (BR): https://noslopgrenade.com/pt-br/
+- 日本語: https://noslopgrenade.com/ja/
+- 中文: https://noslopgrenade.com/zh/
+- 한국어: https://noslopgrenade.com/ko/
+- Русский: https://noslopgrenade.com/ru/
+- Italiano: https://noslopgrenade.com/it/
+- Nederlands: https://noslopgrenade.com/nl/
+
 ## Links
 
 - Website: https://noslopgrenade.com
