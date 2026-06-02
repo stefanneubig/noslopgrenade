@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- HTML Meta Tags -->
     <title>no slop grenade</title>
-    <meta name="description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="description" content="Pare de jogar paredões de texto gerados por IA nas conversas. Se quisessem um textão de IA, teriam perguntado ao ChatGPT.">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://noslopgrenade.com/">
+    <meta property="og:url" content="https://noslopgrenade.com/pt-br/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="no slop grenade">
-    <meta property="og:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta property="og:description" content="Pare de jogar paredões de texto gerados por IA nas conversas. Se quisessem um textão de IA, teriam perguntado ao ChatGPT.">
     <meta property="og:image" content="https://noslopgrenade.com/og-image.png">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="pt_BR">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="noslopgrenade.com">
-    <meta property="twitter:url" content="https://noslopgrenade.com/">
+    <meta property="twitter:url" content="https://noslopgrenade.com/pt-br/">
     <meta name="twitter:title" content="no slop grenade">
-    <meta name="twitter:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="twitter:description" content="Pare de jogar paredões de texto gerados por IA nas conversas. Se quisessem um textão de IA, teriam perguntado ao ChatGPT.">
     <meta name="twitter:image" content="https://noslopgrenade.com/og-image.png">
 
     <!-- Canonical URL + language alternates -->
-    <link rel="canonical" href="https://noslopgrenade.com/">
+    <link rel="canonical" href="https://noslopgrenade.com/pt-br/">
     <link rel="alternate" hreflang="en" href="https://noslopgrenade.com/">
     <link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/">
     <link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/">
@@ -324,40 +324,40 @@
 <body>
 
 <h1>no slop grenade.</h1>
-<p class="tagline">Stop throwing AI-generated walls of text into conversations.</p>
+<p class="tagline">Pare de jogar paredões de texto gerados por IA nas conversas.</p>
 
 <div class="example-section">
-    <div class="section-label bad">Don&#39;t do this</div>
+    <div class="section-label bad">Não faça isso</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">Você</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">A gente usa Redis ou Memcached?</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:16 PM</span>
+                    <span class="username">Ele</span>
+                    <span class="timestamp">14:16</span>
                 </div>
                 <div class="message-text slop">
-                    <span id="preview">Great question! The choice between Redis and Memcached is a nuanced decision that requires careful consideration of multiple factors. Let me break down the key differences: Redis offers a rich set of data structures including strings, hashes, lists, sets, and sorted sets, which provide flexibility for various use cases. It supports persistence through RDB snapshots and AOF logs, enabling data durability<span class="hidden-content" id="full-text">. Redis also includes built-in replication, Lua scripting, pub/sub messaging, and atomic operations. The single-threaded architecture with event loop processing ensures predictable performance characteristics.
+                    <span id="preview">Ótima pergunta! A escolha entre Redis e Memcached é uma decisão cheia de nuances que exige uma análise cuidadosa de diversos fatores. Deixa eu detalhar as principais diferenças: o Redis oferece um conjunto rico de estruturas de dados, incluindo strings, hashes, listas, sets e sorted sets, o que traz flexibilidade para os mais variados casos de uso. Ele suporta persistência por meio de snapshots RDB e logs AOF, garantindo a durabilidade dos dados<span class="hidden-content" id="full-text">. O Redis também inclui replicação nativa, scripting em Lua, mensageria pub/sub e operações atômicas. A arquitetura single-thread com processamento por event loop garante características de desempenho previsíveis.
 
-Memcached, on the other hand, follows a simpler multi-threaded architecture that can leverage multiple CPU cores more efficiently for basic caching operations. It uses a straightforward key-value storage model with a slab allocation mechanism that minimizes memory fragmentation. The protocol is simpler and has lower overhead for basic GET/SET operations.
+O Memcached, por outro lado, segue uma arquitetura multi-thread mais simples, capaz de aproveitar múltiplos núcleos de CPU de forma mais eficiente em operações básicas de cache. Ele usa um modelo direto de armazenamento chave-valor com um mecanismo de alocação por slabs que minimiza a fragmentação de memória. O protocolo é mais simples e tem menor overhead para operações básicas de GET/SET.
 
-Performance considerations: Memcached typically shows better throughput for simple key-value operations due to its multi-threaded nature. Redis excels when you need complex data operations or persistence. Benchmarks vary depending on payload size, operation types, and hardware configuration.
+Considerações de desempenho: o Memcached costuma apresentar melhor throughput em operações chave-valor simples, justamente por sua natureza multi-thread. Já o Redis se destaca quando você precisa de operações de dados mais complexas ou de persistência. Os benchmarks variam conforme o tamanho do payload, os tipos de operação e a configuração de hardware.
 
-From a scalability perspective, both support horizontal scaling through client-side sharding or proxy solutions like Twemproxy. Redis Cluster provides native sharding capabilities. Memory efficiency differs based on data types and access patterns.
+Do ponto de vista de escalabilidade, ambos suportam escala horizontal via sharding no lado do cliente ou soluções de proxy como o Twemproxy. O Redis Cluster oferece sharding nativo. A eficiência de memória difere de acordo com os tipos de dados e os padrões de acesso.
 
-Operational considerations include monitoring capabilities, community support, client library maturity, and ops team familiarity. Redis has more features but higher complexity. Memcached is simpler to operate but less flexible.
+Aspectos operacionais incluem capacidade de monitoramento, suporte da comunidade, maturidade das bibliotecas cliente e familiaridade do time de ops. O Redis tem mais recursos, mas também mais complexidade. O Memcached é mais simples de operar, porém menos flexível.
 
-In conclusion, the optimal choice depends on your specific requirements, existing infrastructure, team expertise, and future scalability needs. I&#39;d recommend conducting a proof of concept with your actual workload patterns to make an informed decision.</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="...more" data-less="less">...more</button>
+Em conclusão, a escolha ideal depende dos seus requisitos específicos, da infraestrutura existente, da expertise do time e das necessidades futuras de escalabilidade. Eu recomendaria fazer uma prova de conceito com os seus padrões reais de carga para tomar uma decisão bem fundamentada.</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="...mais" data-less="menos">...mais</button>
                 </div>
             </div>
         </div>
@@ -365,26 +365,26 @@ In conclusion, the optimal choice depends on your specific requirements, existin
 </div>
 
 <div class="example-section">
-    <div class="section-label good">Instead, be human:</div>
+    <div class="section-label good">Em vez disso, seja humano:</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">Você</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">A gente usa Redis ou Memcached?</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">Ele</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Redis. We need pub/sub for the notifications feature.</div>
+                <div class="message-text">Redis. A gente precisa de pub/sub pra feature de notificações.</div>
             </div>
         </div>
     </div>
@@ -402,28 +402,28 @@ function toggleExpand() {
 }
 </script>
 
-<h2>What&#39;s a slop grenade?</h2>
-<p>Pasting a massive AI-generated response into a chat or email where a human would write one sentence. It destroys the medium itself. Nobody writes essays in Slack. It&#39;s only possible because of AI copy-paste.</p>
-<p>It&#39;s like calling someone and asking &quot;What time is the meeting?&quot; and they read you a 10-page analysis of calendar management best practices. You asked a simple question. They lobbed a document.</p>
+<h2>O que é um slop grenade?</h2>
+<p>É colar uma resposta gigantesca gerada por IA num chat ou e-mail onde um humano escreveria uma frase. Isso destrói o próprio meio. Ninguém escreve redação no Slack. Só é possível por causa do copia-e-cola da IA.</p>
+<p>É como ligar pra alguém e perguntar &quot;Que horas é a reunião?&quot; e a pessoa te ler uma análise de 10 páginas sobre boas práticas de gestão de agenda. Você fez uma pergunta simples. Te jogaram um documento na cara.</p>
 
-<h2>Why it&#39;s wrong</h2>
-<p>If they wanted an AI essay, they would have asked ChatGPT themselves. They asked you because they wanted your human judgment.</p>
-<p>It steals the recipient&#39;s time and destroys the conversation. They spend 20 minutes extracting one sentence you should&#39;ve given upfront. Even when your answer is technically correct, the format is hostile to how humans communicate.</p>
-<p>Worse: it&#39;s a conversation killer. There&#39;s nothing to respond to. Your wall of text suppresses dialogue. They can&#39;t reply, can&#39;t push back, can&#39;t clarify. It&#39;s a weapon disguised as helpfulness.</p>
+<h2>Por que isso é errado</h2>
+<p>Se quisessem um textão de IA, teriam perguntado ao ChatGPT. Eles perguntaram a você porque queriam o seu julgamento humano.</p>
+<p>Isso rouba o tempo de quem recebe e mata a conversa. A pessoa gasta 20 minutos garimpando uma frase que você deveria ter dado de cara. Mesmo quando sua resposta está tecnicamente certa, o formato é hostil ao jeito como humanos se comunicam.</p>
+<p>Pior: é um matador de conversa. Não há nada a que responder. Seu paredão de texto sufoca o diálogo. A pessoa não consegue responder, não consegue contestar, não consegue pedir esclarecimento. É uma arma disfarçada de boa vontade.</p>
 
 <hr class="divider">
 
-<p class="principle">Use AI to make things clearer, not longer. Let it sharpen your thinking, not replace it.</p>
+<p class="principle">Use a IA para deixar as coisas mais claras, não mais longas. Deixe que ela afie o seu raciocínio, não que o substitua.</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">Or as <a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a> has said:</p>
+<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">Ou, como disse <a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a>:</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">&quot;We live in a world where there is more and more information, and less and less meaning.&quot;</p>
+<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">“Vivemos num mundo em que há cada vez mais informação e cada vez menos sentido.”</p>
 
 <hr class="divider">
 
 <div class="share-cta">
-    <p>If you encounter a slop grenade, share this page:</p>
-    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/" data-title="no slop grenade" data-text="Stop throwing AI-generated walls of text into conversations." data-copied="Copied!" onclick="shareLink(event)">
+    <p>Se você levar um slop grenade, compartilhe esta página:</p>
+    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/pt-br/" data-title="no slop grenade" data-text="Pare de jogar paredões de texto gerados por IA nas conversas." data-copied="Copiado!" onclick="shareLink(event)">
         <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="18" cy="5" r="3"></circle>
             <circle cx="6" cy="12" r="3"></circle>
@@ -467,18 +467,18 @@ function copyToClipboard(text) {
 </script>
 
 <footer>
-    <nav class="lang-switcher" aria-label="Language"><span aria-current="page">English</span>
+    <nav class="lang-switcher" aria-label="Language"><a href="/">English</a>
         <a href="/de/">Deutsch</a>
         <a href="/fr/">Français</a>
         <a href="/es/">Español</a>
-        <a href="/pt-br/">Português</a>
+        <span aria-current="page">Português</span>
         <a href="/ja/">日本語</a>
         <a href="/zh/">中文</a>
         <a href="/ko/">한국어</a>
         <a href="/ru/">Русский</a>
         <a href="/it/">Italiano</a>
         <a href="/nl/">Nederlands</a></nav>
-    <p>Inspired by <a href="https://nohello.net">nohello.net</a>, another helpful practice for better async communication.</p>
+    <p>Inspirado no <a href="https://nohello.net">nohello.net</a>, outra prática útil para uma comunicação assíncrona melhor.</p>
 </footer>
 
 </body>

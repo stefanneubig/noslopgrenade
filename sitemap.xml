@@ -1,9 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://noslopgrenade.com/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/de/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/fr/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/es/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/pt-br/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/ja/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/zh/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/ko/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/ru/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/it/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://noslopgrenade.com/nl/</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="https://noslopgrenade.com/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/"/>
+      <xhtml:link rel="alternate" hreflang="es" href="https://noslopgrenade.com/es/"/>
+      <xhtml:link rel="alternate" hreflang="pt-BR" href="https://noslopgrenade.com/pt-br/"/>
+      <xhtml:link rel="alternate" hreflang="ja" href="https://noslopgrenade.com/ja/"/>
+      <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://noslopgrenade.com/zh/"/>
+      <xhtml:link rel="alternate" hreflang="ko" href="https://noslopgrenade.com/ko/"/>
+      <xhtml:link rel="alternate" hreflang="ru" href="https://noslopgrenade.com/ru/"/>
+      <xhtml:link rel="alternate" hreflang="it" href="https://noslopgrenade.com/it/"/>
+      <xhtml:link rel="alternate" hreflang="nl" href="https://noslopgrenade.com/nl/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://noslopgrenade.com/"/>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

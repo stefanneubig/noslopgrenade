@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- HTML Meta Tags -->
     <title>no slop grenade</title>
-    <meta name="description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="description" content="别再把 AI 生成的大段文字甩进对话里。如果对方想要 AI 写的长篇大论，他们自己去问 ChatGPT 就行了。">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://noslopgrenade.com/">
+    <meta property="og:url" content="https://noslopgrenade.com/zh/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="no slop grenade">
-    <meta property="og:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta property="og:description" content="别再把 AI 生成的大段文字甩进对话里。如果对方想要 AI 写的长篇大论，他们自己去问 ChatGPT 就行了。">
     <meta property="og:image" content="https://noslopgrenade.com/og-image.png">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="zh_CN">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="noslopgrenade.com">
-    <meta property="twitter:url" content="https://noslopgrenade.com/">
+    <meta property="twitter:url" content="https://noslopgrenade.com/zh/">
     <meta name="twitter:title" content="no slop grenade">
-    <meta name="twitter:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="twitter:description" content="别再把 AI 生成的大段文字甩进对话里。如果对方想要 AI 写的长篇大论，他们自己去问 ChatGPT 就行了。">
     <meta name="twitter:image" content="https://noslopgrenade.com/og-image.png">
 
     <!-- Canonical URL + language alternates -->
-    <link rel="canonical" href="https://noslopgrenade.com/">
+    <link rel="canonical" href="https://noslopgrenade.com/zh/">
     <link rel="alternate" hreflang="en" href="https://noslopgrenade.com/">
     <link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/">
     <link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/">
@@ -324,40 +324,40 @@
 <body>
 
 <h1>no slop grenade.</h1>
-<p class="tagline">Stop throwing AI-generated walls of text into conversations.</p>
+<p class="tagline">别再把 AI 生成的大段文字甩进对话里。</p>
 
 <div class="example-section">
-    <div class="section-label bad">Don&#39;t do this</div>
+    <div class="section-label bad">别这么干</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">我</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">我们该用 Redis 还是 Memcached？</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:16 PM</span>
+                    <span class="username">对方</span>
+                    <span class="timestamp">14:16</span>
                 </div>
                 <div class="message-text slop">
-                    <span id="preview">Great question! The choice between Redis and Memcached is a nuanced decision that requires careful consideration of multiple factors. Let me break down the key differences: Redis offers a rich set of data structures including strings, hashes, lists, sets, and sorted sets, which provide flexibility for various use cases. It supports persistence through RDB snapshots and AOF logs, enabling data durability<span class="hidden-content" id="full-text">. Redis also includes built-in replication, Lua scripting, pub/sub messaging, and atomic operations. The single-threaded architecture with event loop processing ensures predictable performance characteristics.
+                    <span id="preview">好问题！Redis 和 Memcached 之间的取舍是个相当微妙的决定，需要从多个维度仔细权衡。让我帮你梳理一下关键差异：Redis 提供了丰富的数据结构，包括字符串、哈希、列表、集合和有序集合，能灵活应对各种使用场景。它通过 RDB 快照和 AOF 日志支持持久化，从而保证数据的可靠性<span class="hidden-content" id="full-text">。Redis 还内置了主从复制、Lua 脚本、pub/sub 消息以及原子操作。其单线程加事件循环的架构带来了可预测的性能表现。
 
-Memcached, on the other hand, follows a simpler multi-threaded architecture that can leverage multiple CPU cores more efficiently for basic caching operations. It uses a straightforward key-value storage model with a slab allocation mechanism that minimizes memory fragmentation. The protocol is simpler and has lower overhead for basic GET/SET operations.
+而 Memcached 则采用更简单的多线程架构，在基础缓存操作中能更高效地利用多个 CPU 核心。它使用直白的键值存储模型，并通过 slab 分配机制把内存碎片降到最低。其协议更简单，处理基础的 GET/SET 操作时开销也更低。
 
-Performance considerations: Memcached typically shows better throughput for simple key-value operations due to its multi-threaded nature. Redis excels when you need complex data operations or persistence. Benchmarks vary depending on payload size, operation types, and hardware configuration.
+性能方面：对于简单的键值操作，Memcached 凭借多线程特性通常吞吐量更高；而当你需要复杂数据操作或持久化时，Redis 更胜一筹。具体跑分会因负载大小、操作类型和硬件配置而有所不同。
 
-From a scalability perspective, both support horizontal scaling through client-side sharding or proxy solutions like Twemproxy. Redis Cluster provides native sharding capabilities. Memory efficiency differs based on data types and access patterns.
+从扩展性来看，两者都可以通过客户端分片或 Twemproxy 这类代理方案实现横向扩展。Redis Cluster 则提供了原生的分片能力。内存利用效率则取决于数据类型和访问模式。
 
-Operational considerations include monitoring capabilities, community support, client library maturity, and ops team familiarity. Redis has more features but higher complexity. Memcached is simpler to operate but less flexible.
+运维层面要考虑的因素包括：监控能力、社区支持、客户端库的成熟度，以及运维团队的熟悉程度。Redis 功能更多但复杂度更高，Memcached 上手简单但灵活性差一些。
 
-In conclusion, the optimal choice depends on your specific requirements, existing infrastructure, team expertise, and future scalability needs. I&#39;d recommend conducting a proof of concept with your actual workload patterns to make an informed decision.</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="...more" data-less="less">...more</button>
+综上所述，最优选择取决于你的具体需求、现有基础设施、团队经验以及未来的扩展规划。我建议用你真实的负载模式做一次概念验证，再做出明智的决定。</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="…更多" data-less="收起">…更多</button>
                 </div>
             </div>
         </div>
@@ -365,26 +365,26 @@ In conclusion, the optimal choice depends on your specific requirements, existin
 </div>
 
 <div class="example-section">
-    <div class="section-label good">Instead, be human:</div>
+    <div class="section-label good">请像个人一样回复：</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">我</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">我们该用 Redis 还是 Memcached？</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">对方</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Redis. We need pub/sub for the notifications feature.</div>
+                <div class="message-text">Redis。通知功能需要用到 pub/sub。</div>
             </div>
         </div>
     </div>
@@ -402,28 +402,28 @@ function toggleExpand() {
 }
 </script>
 
-<h2>What&#39;s a slop grenade?</h2>
-<p>Pasting a massive AI-generated response into a chat or email where a human would write one sentence. It destroys the medium itself. Nobody writes essays in Slack. It&#39;s only possible because of AI copy-paste.</p>
-<p>It&#39;s like calling someone and asking &quot;What time is the meeting?&quot; and they read you a 10-page analysis of calendar management best practices. You asked a simple question. They lobbed a document.</p>
+<h2>什么是 slop grenade？</h2>
+<p>就是把一大段 AI 生成的回复，粘贴到本来一句话就能说清的聊天或邮件里。这彻底毁掉了这个媒介本身。没人会在 Slack 里写长篇大论——只有靠 AI 复制粘贴才干得出来。</p>
+<p>这就好比你打电话问别人“会议几点开？”，对方却给你念了一篇十页长的《日程管理最佳实践》。你问的是个简单问题，他却朝你扔来一整份文档。</p>
 
-<h2>Why it&#39;s wrong</h2>
-<p>If they wanted an AI essay, they would have asked ChatGPT themselves. They asked you because they wanted your human judgment.</p>
-<p>It steals the recipient&#39;s time and destroys the conversation. They spend 20 minutes extracting one sentence you should&#39;ve given upfront. Even when your answer is technically correct, the format is hostile to how humans communicate.</p>
-<p>Worse: it&#39;s a conversation killer. There&#39;s nothing to respond to. Your wall of text suppresses dialogue. They can&#39;t reply, can&#39;t push back, can&#39;t clarify. It&#39;s a weapon disguised as helpfulness.</p>
+<h2>为什么这是错的</h2>
+<p>如果对方想要 AI 写的长篇大论，他们自己去问 ChatGPT 就行了。他们来问你，是因为想要你这个人的判断。</p>
+<p>它偷走了对方的时间，也毁掉了这场对话。对方要花二十分钟从中扒出那一句你本该直接给出的话。哪怕你的答案在技术上完全正确，这种形式对人与人之间的沟通也是充满敌意的。</p>
+<p>更糟的是：它会直接终结对话。没有任何可以回应的点。你那堵文字墙扼杀了对话的可能。对方没法回复、没法反驳、没法追问。这是一件披着“热心帮忙”外衣的武器。</p>
 
 <hr class="divider">
 
-<p class="principle">Use AI to make things clearer, not longer. Let it sharpen your thinking, not replace it.</p>
+<p class="principle">用 AI 把事情说得更清楚，而不是更长。让它磨快你的思考，而不是取代它。</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">Or as <a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a> has said:</p>
+<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">或者，正如<a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a>所说：</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">&quot;We live in a world where there is more and more information, and less and less meaning.&quot;</p>
+<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">“我们生活在一个信息越来越多、意义越来越少的世界里。”</p>
 
 <hr class="divider">
 
 <div class="share-cta">
-    <p>If you encounter a slop grenade, share this page:</p>
-    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/" data-title="no slop grenade" data-text="Stop throwing AI-generated walls of text into conversations." data-copied="Copied!" onclick="shareLink(event)">
+    <p>如果你遇到了 slop grenade，把这个页面分享出去：</p>
+    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/zh/" data-title="no slop grenade" data-text="别再把 AI 生成的大段文字甩进对话里。" data-copied="已复制！" onclick="shareLink(event)">
         <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="18" cy="5" r="3"></circle>
             <circle cx="6" cy="12" r="3"></circle>
@@ -467,18 +467,18 @@ function copyToClipboard(text) {
 </script>
 
 <footer>
-    <nav class="lang-switcher" aria-label="Language"><span aria-current="page">English</span>
+    <nav class="lang-switcher" aria-label="Language"><a href="/">English</a>
         <a href="/de/">Deutsch</a>
         <a href="/fr/">Français</a>
         <a href="/es/">Español</a>
         <a href="/pt-br/">Português</a>
         <a href="/ja/">日本語</a>
-        <a href="/zh/">中文</a>
+        <span aria-current="page">中文</span>
         <a href="/ko/">한국어</a>
         <a href="/ru/">Русский</a>
         <a href="/it/">Italiano</a>
         <a href="/nl/">Nederlands</a></nav>
-    <p>Inspired by <a href="https://nohello.net">nohello.net</a>, another helpful practice for better async communication.</p>
+    <p>灵感来自 <a href="https://nohello.net">nohello.net</a>，另一种让异步沟通更顺畅的好习惯。</p>
 </footer>
 
 </body>

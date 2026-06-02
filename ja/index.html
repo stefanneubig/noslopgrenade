@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- HTML Meta Tags -->
     <title>no slop grenade</title>
-    <meta name="description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="description" content="AIが生成した長文の壁を会話に投げ込むのはやめろ。AIのエッセイが欲しければ、相手は自分でChatGPTに聞いている。">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://noslopgrenade.com/">
+    <meta property="og:url" content="https://noslopgrenade.com/ja/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="no slop grenade">
-    <meta property="og:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta property="og:description" content="AIが生成した長文の壁を会話に投げ込むのはやめろ。AIのエッセイが欲しければ、相手は自分でChatGPTに聞いている。">
     <meta property="og:image" content="https://noslopgrenade.com/og-image.png">
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="ja_JP">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="noslopgrenade.com">
-    <meta property="twitter:url" content="https://noslopgrenade.com/">
+    <meta property="twitter:url" content="https://noslopgrenade.com/ja/">
     <meta name="twitter:title" content="no slop grenade">
-    <meta name="twitter:description" content="Stop throwing AI-generated walls of text into conversations. If they wanted an AI essay, they would have asked ChatGPT themselves.">
+    <meta name="twitter:description" content="AIが生成した長文の壁を会話に投げ込むのはやめろ。AIのエッセイが欲しければ、相手は自分でChatGPTに聞いている。">
     <meta name="twitter:image" content="https://noslopgrenade.com/og-image.png">
 
     <!-- Canonical URL + language alternates -->
-    <link rel="canonical" href="https://noslopgrenade.com/">
+    <link rel="canonical" href="https://noslopgrenade.com/ja/">
     <link rel="alternate" hreflang="en" href="https://noslopgrenade.com/">
     <link rel="alternate" hreflang="de" href="https://noslopgrenade.com/de/">
     <link rel="alternate" hreflang="fr" href="https://noslopgrenade.com/fr/">
@@ -324,40 +324,40 @@
 <body>
 
 <h1>no slop grenade.</h1>
-<p class="tagline">Stop throwing AI-generated walls of text into conversations.</p>
+<p class="tagline">AIが生成した長文の壁を会話に投げ込むのはやめろ。</p>
 
 <div class="example-section">
-    <div class="section-label bad">Don&#39;t do this</div>
+    <div class="section-label bad">これをやるな</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">自分</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">RedisとMemcached、どっちを使うべき?</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:16 PM</span>
+                    <span class="username">相手</span>
+                    <span class="timestamp">14:16</span>
                 </div>
                 <div class="message-text slop">
-                    <span id="preview">Great question! The choice between Redis and Memcached is a nuanced decision that requires careful consideration of multiple factors. Let me break down the key differences: Redis offers a rich set of data structures including strings, hashes, lists, sets, and sorted sets, which provide flexibility for various use cases. It supports persistence through RDB snapshots and AOF logs, enabling data durability<span class="hidden-content" id="full-text">. Redis also includes built-in replication, Lua scripting, pub/sub messaging, and atomic operations. The single-threaded architecture with event loop processing ensures predictable performance characteristics.
+                    <span id="preview">いい質問ですね!RedisとMemcachedの選択は、複数の要素を慎重に検討する必要がある繊細な判断です。主な違いを整理しましょう。Redisは文字列、ハッシュ、リスト、セット、ソート済みセットといった豊富なデータ構造を備えており、さまざまなユースケースに柔軟に対応できます。RDBスナップショットとAOFログによる永続化をサポートしており、データの耐久性を実現します<span class="hidden-content" id="full-text">。さらにRedisには、組み込みのレプリケーション、Luaスクリプティング、pub/subメッセージング、アトミック操作も含まれています。イベントループ処理によるシングルスレッドアーキテクチャは、予測可能なパフォーマンス特性を保証します。
 
-Memcached, on the other hand, follows a simpler multi-threaded architecture that can leverage multiple CPU cores more efficiently for basic caching operations. It uses a straightforward key-value storage model with a slab allocation mechanism that minimizes memory fragmentation. The protocol is simpler and has lower overhead for basic GET/SET operations.
+一方でMemcachedは、よりシンプルなマルチスレッドアーキテクチャを採用しており、基本的なキャッシュ操作において複数のCPUコアをより効率的に活用できます。スラブアロケーションの仕組みを備えた素直なキーバリュー型ストレージモデルを使い、メモリの断片化を最小限に抑えます。プロトコルはシンプルで、基本的なGET/SET操作のオーバーヘッドが低くなっています。
 
-Performance considerations: Memcached typically shows better throughput for simple key-value operations due to its multi-threaded nature. Redis excels when you need complex data operations or persistence. Benchmarks vary depending on payload size, operation types, and hardware configuration.
+パフォーマンスの観点では、Memcachedはマルチスレッドの性質により、単純なキーバリュー操作でより高いスループットを示すのが一般的です。Redisは複雑なデータ操作や永続化が必要な場面で真価を発揮します。ベンチマーク結果はペイロードサイズ、操作の種類、ハードウェア構成によって変動します。
 
-From a scalability perspective, both support horizontal scaling through client-side sharding or proxy solutions like Twemproxy. Redis Cluster provides native sharding capabilities. Memory efficiency differs based on data types and access patterns.
+スケーラビリティの観点では、両者ともクライアント側のシャーディング、あるいはTwemproxyのようなプロキシソリューションによる水平スケーリングをサポートしています。Redis Clusterはネイティブなシャーディング機能を提供します。メモリ効率はデータ型やアクセスパターンによって異なります。
 
-Operational considerations include monitoring capabilities, community support, client library maturity, and ops team familiarity. Redis has more features but higher complexity. Memcached is simpler to operate but less flexible.
+運用面の検討事項には、監視機能、コミュニティのサポート、クライアントライブラリの成熟度、運用チームの習熟度などがあります。Redisは機能が豊富ですが複雑性も高いです。Memcachedは運用がシンプルですが柔軟性に欠けます。
 
-In conclusion, the optimal choice depends on your specific requirements, existing infrastructure, team expertise, and future scalability needs. I&#39;d recommend conducting a proof of concept with your actual workload patterns to make an informed decision.</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="...more" data-less="less">...more</button>
+結論として、最適な選択は、具体的な要件、既存のインフラ、チームの専門性、将来のスケーラビリティのニーズによって変わります。情報に基づいた判断を下すために、実際のワークロードパターンでの概念実証(PoC)を実施することをおすすめします。</span></span> <button type="button" class="expand-toggle" id="expand-btn" onclick="toggleExpand()" aria-expanded="false" aria-controls="full-text" data-more="...続きを読む" data-less="閉じる">...続きを読む</button>
                 </div>
             </div>
         </div>
@@ -365,26 +365,26 @@ In conclusion, the optimal choice depends on your specific requirements, existin
 </div>
 
 <div class="example-section">
-    <div class="section-label good">Instead, be human:</div>
+    <div class="section-label good">そうじゃなく、人間らしく:</div>
     <div class="chat-window">
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/baudrillard.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">You</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">自分</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Should we use Redis or Memcached?</div>
+                <div class="message-text">RedisとMemcached、どっちを使うべき?</div>
             </div>
         </div>
         <div class="chat-message">
             <div class="avatar" style="background-image: url('/mcluhan.png');"></div>
             <div class="message-content">
                 <div class="message-header">
-                    <span class="username">Them</span>
-                    <span class="timestamp">2:15 PM</span>
+                    <span class="username">相手</span>
+                    <span class="timestamp">14:15</span>
                 </div>
-                <div class="message-text">Redis. We need pub/sub for the notifications feature.</div>
+                <div class="message-text">Redis。通知機能でpub/subが必要だから。</div>
             </div>
         </div>
     </div>
@@ -402,28 +402,28 @@ function toggleExpand() {
 }
 </script>
 
-<h2>What&#39;s a slop grenade?</h2>
-<p>Pasting a massive AI-generated response into a chat or email where a human would write one sentence. It destroys the medium itself. Nobody writes essays in Slack. It&#39;s only possible because of AI copy-paste.</p>
-<p>It&#39;s like calling someone and asking &quot;What time is the meeting?&quot; and they read you a 10-page analysis of calendar management best practices. You asked a simple question. They lobbed a document.</p>
+<h2>slop grenadeって何?</h2>
+<p>人間なら一文で済ませる場面で、AIが生成した巨大な回答をチャットやメールに貼り付ける行為。それは媒体そのものを破壊する。誰もSlackでエッセイなんて書かない。AIのコピペがあるからこそ可能になっただけだ。</p>
+<p>電話で「会議は何時?」と聞いたら、相手がカレンダー管理のベストプラクティスに関する10ページの分析を読み上げてくるようなものだ。こっちは単純な質問をした。なのに相手はドキュメントを投げつけてきた。</p>
 
-<h2>Why it&#39;s wrong</h2>
-<p>If they wanted an AI essay, they would have asked ChatGPT themselves. They asked you because they wanted your human judgment.</p>
-<p>It steals the recipient&#39;s time and destroys the conversation. They spend 20 minutes extracting one sentence you should&#39;ve given upfront. Even when your answer is technically correct, the format is hostile to how humans communicate.</p>
-<p>Worse: it&#39;s a conversation killer. There&#39;s nothing to respond to. Your wall of text suppresses dialogue. They can&#39;t reply, can&#39;t push back, can&#39;t clarify. It&#39;s a weapon disguised as helpfulness.</p>
+<h2>なぜそれが間違いなのか</h2>
+<p>AIのエッセイが欲しければ、相手は自分でChatGPTに聞いている。相手があなたに聞いたのは、あなたの人間としての判断が欲しかったからだ。</p>
+<p>それは受け手の時間を奪い、会話を破壊する。本来なら最初に渡すべき一文を抜き出すのに、相手は20分を費やす。たとえ答えが技術的に正しくても、その形式は人間のコミュニケーションのあり方に対して敵対的だ。</p>
+<p>もっとひどいのは、会話を殺すことだ。返しようがない。あなたの長文の壁が対話を封じ込める。相手は返信できず、反論できず、確認もできない。それは親切のふりをした武器だ。</p>
 
 <hr class="divider">
 
-<p class="principle">Use AI to make things clearer, not longer. Let it sharpen your thinking, not replace it.</p>
+<p class="principle">AIは長くするためでなく、明確にするために使え。思考を置き換えるのではなく、研ぎ澄ますために。</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">Or as <a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a> has said:</p>
+<p style="font-style: italic; text-align: center; font-size: 1.125rem; margin: 2rem auto 0; max-width: 600px; color: #6e6e73; line-height: 1.6;">あるいは<a href="https://en.wikipedia.org/wiki/Jean_Baudrillard" style="color: #6e6e73;">Jean Baudrillard</a>が言ったように:</p>
 
-<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">&quot;We live in a world where there is more and more information, and less and less meaning.&quot;</p>
+<p style="font-style: italic; text-align: center; font-size: 1.375rem; margin: 1rem 0 0; color: #6e6e73; line-height: 1.5;">「私たちは、情報がますます増え、意味がますます失われていく世界に生きている。」</p>
 
 <hr class="divider">
 
 <div class="share-cta">
-    <p>If you encounter a slop grenade, share this page:</p>
-    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/" data-title="no slop grenade" data-text="Stop throwing AI-generated walls of text into conversations." data-copied="Copied!" onclick="shareLink(event)">
+    <p>slop grenadeに遭遇したら、このページをシェアしよう:</p>
+    <a href="#" class="share-link" id="share-link" data-url="https://noslopgrenade.com/ja/" data-title="no slop grenade" data-text="AIが生成した長文の壁を会話に投げ込むのはやめろ。" data-copied="コピーしました!" onclick="shareLink(event)">
         <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="18" cy="5" r="3"></circle>
             <circle cx="6" cy="12" r="3"></circle>
@@ -467,18 +467,18 @@ function copyToClipboard(text) {
 </script>
 
 <footer>
-    <nav class="lang-switcher" aria-label="Language"><span aria-current="page">English</span>
+    <nav class="lang-switcher" aria-label="Language"><a href="/">English</a>
         <a href="/de/">Deutsch</a>
         <a href="/fr/">Français</a>
         <a href="/es/">Español</a>
         <a href="/pt-br/">Português</a>
-        <a href="/ja/">日本語</a>
+        <span aria-current="page">日本語</span>
         <a href="/zh/">中文</a>
         <a href="/ko/">한국어</a>
         <a href="/ru/">Русский</a>
         <a href="/it/">Italiano</a>
         <a href="/nl/">Nederlands</a></nav>
-    <p>Inspired by <a href="https://nohello.net">nohello.net</a>, another helpful practice for better async communication.</p>
+    <p>より良い非同期コミュニケーションのためのもう一つの実践、<a href="https://nohello.net">nohello.net</a>に着想を得て。</p>
 </footer>
 
 </body>
