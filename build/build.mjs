@@ -35,7 +35,7 @@ const CONTENT_KEYS = [
   'time_q', 'time_bad', 'time_good', 'question', 'slop_preview', 'slop_hidden',
   'more', 'less', 'good_answer', 'h2_what', 'p_what_1', 'p_what_2', 'h2_why',
   'p_why_1', 'p_why_2', 'p_why_3', 'principle', 'baud_intro_pre',
-  'baud_intro_post', 'quote', 'share_prompt', 'copied',
+  'baud_intro_post', 'quote', 'share_prompt', 'copied', 'footer_pre', 'footer_post',
 ];
 
 const esc = (s) => String(s)
