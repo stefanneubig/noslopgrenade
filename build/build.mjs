@@ -31,7 +31,7 @@ const LOCALES = [
 ];
 
 const CONTENT_KEYS = [
-  'meta_desc', 'tagline', 'label_bad', 'label_good', 'user_you', 'user_them',
+  'title_tagline', 'meta_desc', 'tagline', 'label_bad', 'label_good', 'user_you', 'user_them',
   'time_q', 'time_bad', 'time_good', 'question', 'slop_preview', 'slop_hidden',
   'more', 'less', 'good_answer', 'h2_what', 'p_what_1', 'p_what_2', 'h2_why',
   'p_why_1', 'p_why_2', 'p_why_3', 'principle', 'baud_intro_pre',
